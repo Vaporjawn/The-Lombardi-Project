@@ -1,0 +1,61 @@
+body {
+	background: #808080;
+}
+.navbar {
+	background: #7090ba;
+}
+.navbar-brand {
+	font-family: Lato;
+}
+
+.dropdown-item {
+	font-family: Lato;
+	color: white;
+}
+
+.dropdown-menu {
+	background: #808080;
+	color: white;
+	border: white solid 2px;
+}
+
+.jumbotron {
+	margin: 10%;
+	background: #7090ba;
+	border: white solid 2px;
+}
+
+.lead {
+	color: white;
+	text-align: center;
+	font-family: Lato;
+}
+
+.place {
+	color: white;
+	text-align: center;
+	font-family: Lato;
+	margin-top: 40px;
+	margin-bottom: 5%;
+}
+
+li {
+	font-family: Lato;
+}
+.display-4	{
+	margin: 10px;
+	text-align: center;
+	padding-top: 10%;
+	color: #f7f7f7;
+	font-family: Lato;
+}
+
+hr	{
+	margin-left: 20%;
+	margin-right: 20%;
+    padding: 0;
+    border: none;
+    border-top: medium double #f7f7f7;
+    color: #f7f7f7;
+    text-align: center;
+}
