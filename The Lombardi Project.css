@@ -1,9 +1,7 @@
 body {
-	background: #808080;
+	background: #515961;
 }
-.navbar {
-	background: #7090ba;
-}
+
 .navbar-brand {
 	font-family: Lato;
 }
@@ -14,7 +12,7 @@ body {
 }
 
 .dropdown-menu {
-	background: #808080;
+	background: #343a40;
 	color: white;
 	border: white solid 2px;
 }
@@ -58,4 +56,9 @@ hr	{
     border-top: medium double #f7f7f7;
     color: #f7f7f7;
     text-align: center;
+}
+
+.clips {
+	border: 2px white;
+
 }
