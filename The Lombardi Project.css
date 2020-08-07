@@ -1,9 +1,6 @@
 body {
 	background: #515961;
-}
-
-p {
-	color: white;
+	padding-top: 4rem;
 }
 
 .buffer {
@@ -30,18 +27,59 @@ p {
 }
 
 .jumbotron {
-	margin: 20%;
+	margin-left: 20%;
+	margin-left: 20%;
 	margin-top: 2%;
-	background: #7090ba;
+	background: darkgrey;
 	border: #343a40 solid 2px;
 	padding: 0;
 	width: 50%;
 	height: 50%;
-	background-image: url(https://media.eventhubs.com/images/ssbm/character_header_falco.jpg);
 	background-size: cover;
 	background-position: center;
+	align-self: center;
+}
 
+.mr-3 {
+	max-width: 100%;
+	max-height: 100%;
+}
 
+.jumboheading {
+	margin-top: 0;
+}
+
+.jumboheading-heading {
+	align-self: center;
+
+}
+
+.tidbit {
+	text-align: center;
+	font-family: Lato;
+	font-style: italic;
+}
+
+.matchups {
+	color: black;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.display-3 {
+	text-align: center;
+	font-weight: bolder;
+}
+.jumboheading-body {
+	text-indent: 1rem;
+	font-family: Lato;
+	font-weight: bold;
+}
+.media-body {
+	align-self: end;
+}
+
+.home {
+	background-image: url(https://media.eventhubs.com/images/ssbm/character_header_falco.jpg);
 }
 
 .banner {
@@ -75,11 +113,11 @@ li {
 }
 
 hr	{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 1rem;
+	margin-right: 1rem;
     padding: 0;
     border: none;
-    border-top: medium double #f7f7f7;
+    border-top: medium double #343a40;
     color: #343a40;
     text-align: center;
 }
@@ -87,6 +125,7 @@ hr	{
 .card {
 	background-color: darkgrey;
 	width: 30.35rem;
+	border: solid 2px #343a40;
 }
 .clips {
 	padding: 1rem;
