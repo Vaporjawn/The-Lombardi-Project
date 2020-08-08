@@ -58,6 +58,7 @@ body {
 	text-align: center;
 	font-family: Lato;
 	font-style: italic;
+	font-weight: bold;
 }
 
 .matchups {
@@ -68,11 +69,11 @@ body {
 .display-3 {
 	text-align: center;
 	font-weight: bolder;
+	
 }
 .jumboheading-body {
 	text-indent: 1rem;
 	font-family: Lato;
-	font-weight: bold;
 }
 .media-body {
 	align-self: end;
@@ -129,15 +130,35 @@ hr	{
 	background-color: darkgrey;
 	width: 30.35rem;
 	border: solid 2px #343a40;
+	align-items: left;
 }
 .clips {
-	padding: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	align-items: center;
+}
+
+.card-titles {
+	text-align: center;
+	margin-top: 0.5rem;
+	font-family: Lota;
+}
+
+.card-body {
+	text-indent: 1rem;
 }
 
 .card-text {
 	color: black;
 	font-family: Lato;
+}
+
+.video {
+	margin-top: 0;
+}
+
+.solution {
+	background: cover;
 }
 
 
