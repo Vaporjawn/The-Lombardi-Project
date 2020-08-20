@@ -83,11 +83,17 @@
         </video>
         <div class="card-body">
           <p class="card-text">It's really frustrating to have your SHL stuffed by C. Falcon's Nair, but we can turn this common situation to our advantage.</p>
-          <button onclick="myFunction()">What's the solution?</button>
-          <div id="Solution" class="card">
-            <video class="clips" width="484" height="255" controls>
-              <source src="https://thumbs.gfycat.com/CalmFewConey-mobile.mp4" type="video/mp4" class="solution">
-            </video>
+          <div>
+            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Link with href
+            </a>
+            <div class="collapse" id="collapseExample">
+              <div class="well">
+                  <video class="clips" width="484" height="255" controls>
+                      <source src="https://thumbs.gfycat.com/CalmFewConey-mobile.mp4" type="video/mp4">
+                  </video>
+              </div>
+            </div>
             </div>
         </div>
       </div>
@@ -112,26 +118,12 @@
 
 <hr>
 
-<!-- hide/show button -->
-<script>
-  function myFunction() {
-    var x = document.getElementById("Solution");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  </script>
 
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<!--  JQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
-<!-- JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
