@@ -60,9 +60,18 @@ body {
 	font-style: italic;
 	font-weight: bold;
 }
+h5 {
+	text-indent: 2rem;
+}
+
+.threerules{
+	font-weight: bolder;
+}
+h6 {
+	font-weight: bolder;
+}
 
 .matchups {
-	color: black;
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
@@ -125,17 +134,45 @@ hr	{
     color: #343a40;
     text-align: center;
 }
-
+.card-deck {
+	align-items: center;
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
 .card {
 	background-color: darkgrey;
-	width: 30.35rem;
+	min-width: 75%;
 	border: solid 2px #343a40;
-	align-items: left;
+	align-items: center;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin: 0 auto;
 }
+
+#lesson {
+	margin-bottom: 2rem;
+}
+
 .clips {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	align-items: center;
+	height: auto;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.counterplay {
+	max-width: auto 0;
+}
+
+.counterplayclips{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	align-items: right;
+	float: right;
+	margin-bottom: 2rem;
+	position: relative;
 }
 
 .card-titles {
@@ -146,6 +183,7 @@ hr	{
 
 .card-body {
 	text-indent: 1rem;
+	align-content: center;
 }
 
 .card-text {
@@ -157,8 +195,15 @@ hr	{
 	margin-top: 0;
 }
 
-.solution {
-	background: cover;
+.counterplay {
+	margin-top: 1rem;
+}
+
+span {
+	float: left;
+	vertical-align: top;
+	display: inline;
+	position: absolute;
 }
 
 
@@ -166,4 +211,8 @@ h4	{
 	color: black;
 	font-family: Lato;
 	
+}
+
+.btn-primary {
+	text-indent: -0.1rem;
 }
