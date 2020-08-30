@@ -5,9 +5,29 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
   <link rel="stylesheet" type="text/css" href="The Lombardi Project.css">
- 
+  <!--  JQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <!-- JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+  <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- Icons (dead game lol)-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="./assets/icons/site.webmanifest">
 </head>
+
 <body>
+  
+  <div class="fullscreen-bg">
+    <video loop muted autoplay class="fullscreen-bg__video">
+      <source src="./assets/images/video.mp4" type="video/mp4">
+    </video>
+  </div>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <a class="navbar-brand" href="index.html">The Lombardi Project</a>
@@ -53,7 +73,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="jumbotron">
+    <div class="jumbotron" id="characterjumbtron">
       <div class="media">
         <img src="https://www.ssbwiki.com/images/a/a5/Falco_Palette_%28SSBM%29.png" class="palette" alt="...">
       </div>
@@ -83,8 +103,8 @@
         <div class="card-body">
           <h4 class="card-title">Getting your SHL Naired</h4>
           <p class="card-text">It's really frustrating to have your SHL stuffed by C. Falcon's Nair, but we can turn this common situation to our advantage.</p>
-          <button onclick="myFunction()">What's the solution?</button>
-          <div id="Solution" class="card">
+          <button onclick="displayButton('Solution')">What's the solution?</button>
+          <div id="Solution" style="display: none" class="card">
             <video class="clips" width="484" height="360" controls>
               <source src="https://thumbs.gfycat.com/CalmFewConey-mobile.mp4" type="video/mp4">
             </video>
@@ -112,26 +132,6 @@
 
 <hr>
 
-<!-- hide/show button -->
-<script>
-  function myFunction() {
-    var x = document.getElementById("Solution");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  </script>
-
-
-
-<!--  JQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
-<!-- JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
