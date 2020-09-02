@@ -150,10 +150,10 @@ hr	{
 	background-color: darkgrey;
 	min-width: 75%;
 	border: solid 2px #190d53;
-	align-items: center;
 	margin-left: 3rem;
 	margin-right: 3rem;
 	margin: 0 auto;
+
 }
 
 #lesson {
@@ -192,6 +192,7 @@ hr	{
 .card-body {
 	text-indent: 1rem;
 	align-content: center;
+	max-width: 66%;
 }
 
 .card-text {
