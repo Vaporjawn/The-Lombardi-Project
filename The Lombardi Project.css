@@ -3,6 +3,14 @@ body {
 	padding-top: 4rem;
 }
 
+#navbaritem {
+	color: white;
+}
+
+#navbarDropdown {
+	color: white;
+}
+
 .buffer {
 	margin-top: 30px;
 }
