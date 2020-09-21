@@ -393,7 +393,7 @@ h6 {
 }
 
 .home {
-	background-image: url(https://www.nicepng.com/png/full/155-1553671_falcos-sizes-star-fox-falco-muscle.png);
+	background-image: url('./assets/images/Muscle Falco.png');
 	height: 37rem;
 	width: 105rem;
 }
