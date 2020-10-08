@@ -1,6 +1,7 @@
 body {
 	background: #515961;
 	padding-top: 4rem;
+
 }
 
 #navbaritem {
@@ -193,6 +194,7 @@ hr	{
 
 .counterplay {
 	max-width: auto 0;
+	margin-top: 1rem;
 }
 
 .counterplayclips{
@@ -204,6 +206,9 @@ hr	{
 	position: relative;
 }
 
+col {
+
+}
 .card-titles {
 	text-align: center;
 	margin-top: 0.5rem;
@@ -223,10 +228,6 @@ hr	{
 
 .video {
 	margin-top: 0;
-}
-
-.counterplay {
-	margin-top: 1rem;
 }
 
 span {
@@ -296,6 +297,8 @@ h4	{
  	border: 2px solid #190d53;
 
  }
+
+
 .buffer {
 	margin-top: 30px;
 }
@@ -465,6 +468,9 @@ li {
 	float: right;
 	margin-bottom: 2rem;
 	position: relative;
+	height: auto;
+	width: auto;
+	max-width: 120%;
 }
 
 .card-titles {
