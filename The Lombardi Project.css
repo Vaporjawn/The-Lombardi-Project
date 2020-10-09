@@ -4,6 +4,7 @@ body {
 
 }
 
+
 #navbaritem {
 	color: white;
 }
@@ -204,6 +205,10 @@ hr	{
 	float: right;
 	margin-bottom: 2rem;
 	position: relative;
+}
+
+#counterplaytext {
+	overflow: auto;
 }
 
 col {
