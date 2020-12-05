@@ -575,3 +575,8 @@ h4	{
 	align-content: center;
 	display: inline-block;
   }
+
+  .catalogitem {
+	  border: solid #190d53 2px;
+	  background: darkgrey;
+  }
