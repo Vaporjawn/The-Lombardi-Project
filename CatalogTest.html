@@ -14,6 +14,11 @@
    <script src="./main.js"></script> 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script>var scale = 'scale(1)';
+document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
+ document.body.style.msTransform =   scale;       // IE 9
+ document.body.style.transform = scale;     // General
+  </script>
   <!-- Icons (dead game lol)-->
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
@@ -110,42 +115,56 @@
           <h6 class="tidbit">Search for a Savestate by category!</h6>
           <hr>
 <!-- Search Savestate By -->
-          <label for="ice-cream-choice">Neutral: </label>
-          <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+    <!-- Neutral -->
+          <label for="savestate-choice"><strong>Neutral: </strong></label>
+          <input list="savestates" id="savestate-choice" name="savestate-choice" />
           
-          <datalist id="ice-cream-flavors">
-              <option value="Chocolate">
-              <option value="Coconut">
-              <option value="Mint">
-              <option value="Strawberry">
-              <option value="Vanilla">
+          <datalist id="savestates">
+              <option value="Take Laser Ftilt">
+              <option value="Nair OOS">
           </datalist>
-          <label for="ice-cream-choice">Punish: </label>
-          <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+    <!-- Punish -->
+          <label for="savestate-choice"><strong>Punish: </strong></label>
+          <input list="savestates" id="savestate-choice" name="savestate-choice" />
           
-          <datalist id="ice-cream-flavors">
-              <option value="Chocolate">
-              <option value="Coconut">
-              <option value="Mint">
-              <option value="Strawberry">
-              <option value="Vanilla">
+          <datalist id="savestates">
+              <option value="Take Laser Ftilt">
+              <option value="Nair OOS">
           </datalist>
-          <label for="ice-cream-choice">Edgeguard: </label>
-          <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
-          
-          <datalist id="ice-cream-flavors">
-              <option value="Chocolate">
-              <option value="Coconut">
-              <option value="Mint">
-              <option value="Strawberry">
-              <option value="Vanilla">
+    <!-- Defense -->
+          <label for="savestate-choice"><strong>Defense: </strong></label>
+          <input list="savestates" id="savestate-choice" name="savestate-choice" />
+          <datalist id="savestates">
+              <option value="Take Laser Ftilt">
+              <option value="Nair OOS">
           </datalist>
+    <!-- Search for Any Scenario -->
+         <div class="center">
+          <label for="savestate-choice"><strong>Search for any scenario: </strong></label>
+          <input list="savestates" id="savestate-choice" name="savestate-choice" />
+          <datalist id="savestates">
+              <option value="Take Laser Ftilt">
+              <option value="Nair OOS">
+          </datalist>
+         </div>
         </div>
     </div>
   </div>
 
   <hr>
-
+<!-- Neutral Banner -->
+<div class="row">
+<div class="jumbotron firstsectionbanner">
+    <div class="display-3">
+    </div>
+      <div class="jumboheading-body">
+        <hr>
+        <br>
+        <h6 class="tidbit">Neutral</h6>
+        <hr>
+      </div>
+  </div>
+</div>
   <section id="explore" class="explore">
     <div class="container">
         <div class="section-header">
@@ -223,18 +242,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="jumbotron">
-                  <div class="display-3">
-                  </div>
-                    <div class="jumboheading-body">
-                      <hr>
-                      <br>
-                      <h6 class="tidbit">Neutral</h6>
-                      <hr>
-                    </div>
-                </div>
-              </div>
+
 <!-- Row  -->            
             <div class="row">
                 <div class="catalogitem col-md-4 col-sm-6">
@@ -380,6 +388,19 @@
                     </div>
                 </div>
             </div>
+<!-- Punish Banner -->
+<div class="row">
+    <div class="jumbotron sectionbanner">
+        <div class="display-3">
+        </div>
+          <div class="jumboheading-body">
+            <hr>
+            <br>
+            <h6 class="tidbit">Neutral</h6>
+            <hr>
+          </div>
+      </div>
+    </div>
 <!-- Row  -->            
             <div class="row">
                 <div class="catalogitem col-md-4 col-sm-6">

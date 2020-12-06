@@ -59,6 +59,8 @@ body {
 	background-position: center;
 	align-self: center;
 	margin-top: 1rem;
+	justify-content: center;
+	padding: 1.5rem;
 }
 
 .BeforeTLP {
@@ -94,7 +96,6 @@ body {
 	font-weight: bold;
 	font-size: 32px;
 	margin-bottom: 2rem;
-	margin-top: -1rem;
 }
 h5 {
 	text-indent: 2rem;
@@ -582,18 +583,33 @@ h4	{
   .catalogitem {
 	  border: solid #190d53 2px;
 	  background: darkgrey;
-<<<<<<< Updated upstream
 	  margin-block-start: 2rem;
 	  margin-right: 1rem;
 	  padding-top: 1rem;
 	  padding-bottom: 1rem;
 
-=======
   }
 
   .charactertitle {
 	  text-align: center;
 	  margin-bottom: 1rem;
 	  margin-top: -1rem;
->>>>>>> Stashed changes
   }
+
+  .firstsectionbanner {
+	  width: 59%;
+	  margin: auto;
+  }
+  .sectionbanner {
+	width: 120%;
+	margin-left: 2rem;
+	margin-top: 2rem;
+}
+
+  .jumbotron-fluid {
+	max-width: 120%;
+}
+.explore {
+	margin-right: 2rem;
+}
+
