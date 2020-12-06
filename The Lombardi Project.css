@@ -1,7 +1,8 @@
 body {
 	background: #515961;
 	padding-top: 4rem;
-
+	max-width: 120%;
+	margin-right: 2rem;
 }
 
 
@@ -211,9 +212,6 @@ hr	{
 	overflow: auto;
 }
 
-col {
-
-}
 .card-titles {
 	text-align: center;
 	margin-top: 0.5rem;
@@ -303,6 +301,9 @@ h4	{
 
  }
 
+ .row {
+	 flex-wrap: nowrap;
+ }
 
 .buffer {
 	margin-top: 30px;
@@ -579,4 +580,9 @@ h4	{
   .catalogitem {
 	  border: solid #190d53 2px;
 	  background: darkgrey;
+	  margin-block-start: 2rem;
+	  margin-right: 1rem;
+	  padding-top: 1rem;
+	  padding-bottom: 1rem;
+
   }
