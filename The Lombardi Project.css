@@ -26,7 +26,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #190d53!important;
+	background-color: #190d53!important;
 }
 .navbar-brand {
 	font-family: Lato;
@@ -35,6 +35,7 @@ body {
 .dropdown-item {
 	font-family: Lato;
 	color: white;
+	background-color: none;
 }
 
 .dropdown-menu {
@@ -310,16 +311,6 @@ h4	{
 
 .buffer {
 	margin-top: 30px;
-}
-.navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 75px;
-	background-image: url('./assets/images/rsz_2tumblr_nvzl10sg5g1ufeyv7o1_1280.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .navbar-brand {
@@ -613,3 +604,6 @@ h4	{
 	margin-right: 2rem;
 }
 
+.scenariosearch {
+	margin-left: 70rem;
+}
