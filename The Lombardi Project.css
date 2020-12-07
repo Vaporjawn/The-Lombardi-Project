@@ -3,11 +3,14 @@ body {
 	padding-top: 4rem;
 	max-width: 120%;
 	margin-right: 2rem;
+	font-size: 20px;
 }
 
 
 #navbaritem {
 	color: white;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 #navbarDropdown {
@@ -21,7 +24,7 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	height: 75px;
+	height: 100px;
 	/*background-image: url('./assets/images/rsz_2tumblr_nvzl10sg5g1ufeyv7o1_1280.png');*/
 	background-position: center;
 	background-repeat: no-repeat;
@@ -29,11 +32,11 @@ body {
 	background-color: #190d53!important;
 }
 .navbar-brand {
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .dropdown-item {
-	font-family: Lato;
+	font-family: Courier;
 	color: white;
 	background-color: none;
 }
@@ -44,9 +47,6 @@ body {
 	border: white solid 2px;
 }
 
-#characterjumbotron {
-	margin-top: 2rem;
-}
 .jumbotron {
 	margin-left: 20%;
 	margin-left: 20%;
@@ -93,7 +93,7 @@ body {
 
 .tidbit {
 	text-align: center;
-	font-family: Lato;
+	font-family: Courier;
 	font-weight: bold;
 	font-size: 32px;
 	margin-bottom: 2rem;
@@ -121,7 +121,7 @@ h6 {
 }
 .jumboheading-body {
 	text-indent: 1rem;
-	font-family: Lato;
+	font-family: Courier;
 }
 .media-body {
 	align-self: end;
@@ -138,26 +138,26 @@ h6 {
 .lead {
 	color: white;
 	text-align: center;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .place {
 	color: white;
 	text-align: center;
-	font-family: Lato;
+	font-family: Courier;
 	margin-top: 40px;
 	margin-bottom: 5%;
 }
 
 li {
-	font-family: Lato;
+	font-family: Courier;
 }
 .display-4	{
 	margin: 10px;
 	text-align: center;
 	padding-top: 10%;
 	color: #f7f7f7;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 hr	{
@@ -230,7 +230,7 @@ hr	{
 
 .card-text {
 	color: black;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .video {
@@ -247,7 +247,7 @@ span {
 
 h4	{
 	color: black;
-	font-family: Lato;
+	font-family: Courier;
 	
 }
 
@@ -314,20 +314,23 @@ h4	{
 }
 
 .navbar-brand {
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .dropdown-item {
-	font-family: Lato;
+	font-family: Courier;
 	color: white;
 }
 
 #savestate {
 	background-color: #190d53;
 	color: white;
+	font-size: 14px;
+	width: 14rem;
+	margin-left: 4rem;
 }
 #characterjumbotron {
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 .jumbotron {
 	margin-left: 20%;
@@ -360,8 +363,7 @@ h4	{
 
 .tidbit {
 	text-align: center;
-	font-family: Lato;
-	font-style: italic;
+	font-family: Courier;
 	font-weight: bold;
 }
 h5 {
@@ -386,7 +388,7 @@ h6 {
 }
 .jumboheading-body {
 	text-indent: 1rem;
-	font-family: Lato;
+	font-family: Courier;
 }
 .media-body {
 	align-self: end;
@@ -409,26 +411,26 @@ h6 {
 .lead {
 	color: white;
 	text-align: center;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .place {
 	color: white;
 	text-align: center;
-	font-family: Lato;
+	font-family: Courier;
 	margin-top: 40px;
 	margin-bottom: 5%;
 }
 
 li {
-	font-family: Lato;
+	font-family: Courier;
 }
 .display-4	{
 	margin: 10px;
 	text-align: center;
 	padding-top: 10%;
 	color: #f7f7f7;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 
@@ -486,7 +488,7 @@ li {
 
 .card-text {
 	color: black;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .video {
@@ -509,7 +511,7 @@ span {
 
 h4	{
 	color: black;
-	font-family: Lato;
+	font-family: Courier;
 	
 }
 
@@ -585,6 +587,9 @@ h4	{
 	  text-align: center;
 	  margin-bottom: 1rem;
 	  margin-top: -1rem;
+	  font-family: Courier;
+	  font-weight: 1000;
+	  font-size: 3rem;
   }
 
   .firstsectionbanner {
@@ -605,5 +610,21 @@ h4	{
 }
 
 .scenariosearch {
-	margin-left: 70rem;
+	margin-left: 25rem;
+	font-size: large;
+	color: white;
+}
+
+#navtitle {
+	font-size: 30px;
+}
+
+.searchbycategory {
+	width: 64%;
+}
+
+h2 {
+	font-family: Courier;
+	font-size: 24px;
+	font-weight: 600;
 }
