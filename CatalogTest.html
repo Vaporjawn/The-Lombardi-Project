@@ -76,7 +76,17 @@ document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
       <li class="nav-item">
         <a class="nav-link" href="Savestates.html" id="navbaritem">How to Use Uncle Punch Savestates</a>
       </li>
-      <li class="nav-item scenariosearch">
+      <li>
+        <div class="dropdown nav-item scenariosearch">
+            <button onclick="anySavestateButton()" class="dropbtn">Search for Any Scenario</button>
+            <div id="myDropdown AnySavestate" class="dropdown-content">
+              <input type="text" placeholder="Search.." id="myInput AnySavestate" onkeyup="filterFunctionAnySavestate()">
+              <a href="CatalogTest.html#TakeLaserFtilt">Sheik: Take Laser Ftilt</a>
+              <a href="Nair OOS">Sheik: Nair OOS</a>
+            </div>
+          </div>    
+      </li>
+      <!-- <li class="nav-item scenariosearch">
          <label for="savestate-choice">Search for any scenario</label>
          <input list="savestates" id="savestate-choice" name="savestate-choice"/>
          <datalist id="savestates">
@@ -84,7 +94,7 @@ document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
              <option value="Nair OOS">
          </datalist>
         </div>     
-      </li>
+      </li> -->
     </ul>
   </div>
 </nav>
@@ -109,7 +119,8 @@ document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
           <h6 class="tidbit">Search for a Savestate by Category</h6>
 <!-- Search Savestate By -->
     <!-- Dropdown Neutral -->
-    <div class="dropdown">
+<div class="row">
+    <div class="dropdown col-md-2">
         <button onclick="neutralButton()" class="dropbtn">Neutral</button>
         <div id="myDropdown Neutral" class="dropdown-content">
           <input type="text" placeholder="Search.." id="myInput Neutral" onkeyup="filterFunctionNeutral()">
@@ -118,16 +129,18 @@ document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
         </div>
       </div>
     <!-- Dropdown Punish -->
-    <div class="dropdown">
+    <div class="col-md-1"></div>
+    <div class="dropdown col-md-2">
         <button onclick="punishButton()" class="dropbtn">Punish</button>
         <div id="myDropdown Punish" class="dropdown-content">
           <input type="text" placeholder="Search.." id="myInput Punish" onkeyup="filterFunctionPunish()">
-          <a href="Take Laser Ftilt">Take Laser Ftilt</a>
+          <a href="#TakeLaserFtilt">Take Laser Ftilt</a>
           <a href="Nair OOS">Nair OOS</a>
         </div>
-      </div>
+    </div>
     <!-- Dropdown Defense -->
-    <div class="dropdown">
+    <div class="col-md-1"></div>
+    <div class="dropdown col-md-2">
         <button onclick="defenseButton()" class="dropbtn">Defense</button>
         <div id="myDropdown Defense" class="dropdown-content">
           <input type="text" placeholder="Search.." id="myInput Defense" onkeyup="filterFunctionDefense()">
@@ -136,14 +149,17 @@ document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
         </div>
       </div>
     <!-- Dropdown All Sheik Savestates -->
-    <div class="dropdown">
+    <div class="col-md-1"></div>
+    <div class="dropdown col-md-2">
         <button onclick="characterButton()" class="dropbtn">All Sheik Savestates</button>
         <div id="myDropdown Character" class="dropdown-content">
           <input type="text" placeholder="Search.." id="myInput Character" onkeyup="filterFunctionCharacter()">
-          <a href="Take Laser Ftilt">Take Laser Ftilt</a>
+          <a href="#TakeLaserFtilt">Take Laser Ftilt</a>
           <a href="Nair OOS">Nair OOS</a>
         </div>
-      </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
 <hr>
     </div>
 
@@ -398,7 +414,7 @@ document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
                 </div>
             </div>
 <!-- Punish Banner -->
-<div class="row">
+<div class="row"><a id="TakeLaserFtilt"></a>
     <div class="jumbotron sectionbanner">
         <div class="display-3">
         </div>
@@ -626,230 +642,11 @@ document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
                     </div>
                 </div>
             </div>
-            <div class="row">
-<!-- Row  -->                
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                    <div class="col-sm-7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                    <div class="col-sm-7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-<!-- Row -->
-            <div class="row">
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                    <div class="col-sm-7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                    <div class="col-sm-7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                    <div class="col-sm-7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-<!-- Row  -->                
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                    <div class="col-sm-7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                    <div class="col-sm-7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="catalogitem col-md-4 col-sm-6">
-                    <div class="single-explore-item">
-                        <div>
-                            <h2>Sheik Ftilt</h2>
-                            <video class="clips" width="940" height="510" controls>
-                                <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
-                              </video>
-                        </div>
-                        <div class="single-explore-txt bg-theme-1">
-                            <div class="explore-open-close-part">
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <!-- Savestate Download Link -->
-                                    <a href="https://drive.google.com/file/d/18YNKIvu5XMYfBDuWeb83aqXGzu43piHK/view?usp=sharing" target="_blank">
-                                        <button id="savestate">Training Mode Savestate</button></a>
-                                    </div>
-                                    <div class="col-sm-7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div><!--/.container-->
 
 </section><!--/.explore-->
 <!--explore end -->
-
-
-    <!-- Scenario #2 -->
     
   <hr>
 
