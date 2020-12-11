@@ -35,6 +35,7 @@ body {
 	font-family: Courier;
 }
 
+
 .dropdown-item {
 	font-family: Courier;
 	color: white;
@@ -317,10 +318,6 @@ h4	{
 	font-family: Courier;
 }
 
-.dropdown-item {
-	font-family: Courier;
-	color: white;
-}
 
 #savestate {
 	background-color: #190d53;
