@@ -3,11 +3,14 @@ body {
 	padding-top: 4rem;
 	max-width: 120%;
 	margin-right: 2rem;
+	font-size: 20px;
 }
 
 
 #navbaritem {
 	color: white;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 #navbarDropdown {
@@ -21,20 +24,22 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	height: 75px;
+	height: 12%;
 	/*background-image: url('./assets/images/rsz_2tumblr_nvzl10sg5g1ufeyv7o1_1280.png');*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #190d53!important;
+	background-color: #190d53!important;
 }
 .navbar-brand {
-	font-family: Lato;
+	font-family: Courier;
 }
 
+
 .dropdown-item {
-	font-family: Lato;
+	font-family: Courier;
 	color: white;
+	background-color: none;
 }
 
 .dropdown-menu {
@@ -43,9 +48,6 @@ body {
 	border: white solid 2px;
 }
 
-#characterjumbotron {
-	margin-top: 2rem;
-}
 .jumbotron {
 	margin-left: 20%;
 	margin-left: 20%;
@@ -59,6 +61,8 @@ body {
 	background-position: center;
 	align-self: center;
 	margin-top: 1rem;
+	justify-content: center;
+	padding: 1.5rem;
 }
 
 .BeforeTLP {
@@ -90,9 +94,10 @@ body {
 
 .tidbit {
 	text-align: center;
-	font-family: Lato;
-	font-style: italic;
+	font-family: Courier;
 	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 2rem;
 }
 h5 {
 	text-indent: 2rem;
@@ -117,7 +122,7 @@ h6 {
 }
 .jumboheading-body {
 	text-indent: 1rem;
-	font-family: Lato;
+	font-family: Courier;
 }
 .media-body {
 	align-self: end;
@@ -134,26 +139,26 @@ h6 {
 .lead {
 	color: white;
 	text-align: center;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .place {
 	color: white;
 	text-align: center;
-	font-family: Lato;
-	margin-top: 40px;
+	font-family: Courier;
+	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
 li {
-	font-family: Lato;
+	font-family: Courier;
 }
 .display-4	{
-	margin: 10px;
+	margin: 5%;
 	text-align: center;
 	padding-top: 10%;
 	color: #f7f7f7;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 hr	{
@@ -226,7 +231,7 @@ hr	{
 
 .card-text {
 	color: black;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .video {
@@ -243,7 +248,7 @@ span {
 
 h4	{
 	color: black;
-	font-family: Lato;
+	font-family: Courier;
 	
 }
 
@@ -308,32 +313,21 @@ h4	{
 .buffer {
 	margin-top: 30px;
 }
-.navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 75px;
-	background-image: url('./assets/images/rsz_2tumblr_nvzl10sg5g1ufeyv7o1_1280.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: 
-}
+
 .navbar-brand {
-	font-family: Lato;
+	font-family: Courier;
 }
 
-.dropdown-item {
-	font-family: Lato;
-	color: white;
-}
 
 #savestate {
 	background-color: #190d53;
 	color: white;
+	font-size: 14px;
+	width: 14rem;
+	margin-left: 4rem;
 }
 #characterjumbotron {
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 .jumbotron {
 	margin-left: 20%;
@@ -366,8 +360,7 @@ h4	{
 
 .tidbit {
 	text-align: center;
-	font-family: Lato;
-	font-style: italic;
+	font-family: Courier;
 	font-weight: bold;
 }
 h5 {
@@ -392,7 +385,7 @@ h6 {
 }
 .jumboheading-body {
 	text-indent: 1rem;
-	font-family: Lato;
+	font-family: Courier;
 }
 .media-body {
 	align-self: end;
@@ -415,26 +408,19 @@ h6 {
 .lead {
 	color: white;
 	text-align: center;
-	font-family: Lato;
+	font-family: Courier;
 }
 
-.place {
-	color: white;
-	text-align: center;
-	font-family: Lato;
-	margin-top: 40px;
-	margin-bottom: 5%;
-}
 
 li {
-	font-family: Lato;
+	font-family: Courier;
 }
 .display-4	{
 	margin: 10px;
 	text-align: center;
 	padding-top: 10%;
 	color: #f7f7f7;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 
@@ -459,7 +445,7 @@ li {
 	align-items: center;
 	height: auto;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 100%;
 }
 
 .counterplay {
@@ -492,7 +478,7 @@ li {
 
 .card-text {
 	color: black;
-	font-family: Lato;
+	font-family: Courier;
 }
 
 .video {
@@ -515,7 +501,7 @@ span {
 
 h4	{
 	color: black;
-	font-family: Lato;
+	font-family: Courier;
 	
 }
 
@@ -586,3 +572,109 @@ h4	{
 	  padding-bottom: 1rem;
 
   }
+
+  .charactertitle {
+	  text-align: center;
+	  margin-bottom: 1rem;
+	  margin-top: -1rem;
+	  font-family: Courier;
+	  font-weight: 1000;
+	  font-size: 3rem;
+  }
+
+  .firstsectionbanner {
+	  width: 59%;
+	  margin: auto;
+  }
+  .sectionbanner {
+	width: 120%;
+	margin-left: 2rem;
+	margin-top: 2rem;
+}
+
+  .jumbotron-fluid {
+	max-width: 120%;
+}
+.explore {
+	margin-right: 2rem;
+}
+
+.scenariosearch {
+	margin-left: 25rem;
+	font-size: large;
+	color: white;
+}
+
+#navtitle {
+	font-size: 150%;
+}
+
+.searchbycategory {
+	width: 64%;
+}
+
+h2 {
+	font-family: Courier;
+	font-size: 100%;
+	font-weight: 600;
+}
+
+/* Dropdown CSS*/
+.dropbtn {
+	background-color: #190d53;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: white solid 2px;
+	cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+	background-color: #2e2558;
+  }
+  
+  #myInput {
+	box-sizing: border-box;
+	background-image: url('searchicon.png');
+	background-position: 14px 12px;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	padding: 14px 20px 12px 45px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background-color: #190d53;
+	font: white;
+  }
+  input {
+	background-color: #190d53;
+	color: white;
+	
+  }
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #190d53;
+	min-width: 230px;
+	overflow: auto;
+	border: 1px solid #ddd;
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown a:hover {background-color: #2e2558;}
+  
+  .show {display: block;}
+  /* Dropdown CSS*/
