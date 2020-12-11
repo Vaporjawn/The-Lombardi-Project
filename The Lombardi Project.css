@@ -678,3 +678,7 @@ h2 {
   
   .show {display: block;}
   /* Dropdown CSS*/
+
+  .searchsavestate {
+	  margin-right: 2rem;
+  }
