@@ -112,3 +112,9 @@ function displayButton(element) {
       }
     }
   }
+
+  const autoUpdate = () => {
+    setTimeout(function(){
+      window.location.reload(1);
+   }, 5000);
+  }
