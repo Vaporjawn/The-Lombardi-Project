@@ -644,9 +644,7 @@ h2 {
 	cursor: pointer;
 	display: block;
 	float: left;
-	margin-top: 3%;
-	margin-bottom: auto;
-	margin-left: 10%;
+	margin: 10px;
   }
   
   .dropbtn:hover, .dropbtn:focus {
@@ -701,9 +699,10 @@ h2 {
 
 .btnContainer {
 	flex-wrap: wrap;
+	justify-content: space-between;
 	position: relative;
 	display: flex;
-	width: 100%;
+	width: 95%;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 }
