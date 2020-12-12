@@ -61,16 +61,22 @@
           Sheik</a>
           <a class="dropdown-item" href="Peach.html">
           Peach</a>
-          <a class="dropdown-item" href="#">
+          <a class="dropdown-item" href="Jigglypuff.html">
           Jigglypuff</a>
           <a class="dropdown-item" href="Captain Falcon.html">
           Captain Falcon</a>
-          <a class="dropdown-item" href="#">
+          <a class="dropdown-item" href="Samus.html">
           Samus</a>
-          <a class="dropdown-item" href="#">
+          <a class="dropdown-item" href="Luigi.html">
           Luigi</a>
-          <a class="dropdown-item" href="#">
-          Ice Climbers</a>        
+          <a class="dropdown-item" href="Ice Climbers.html">
+          Ice Climbers</a>
+          <a class="dropdown-item" href="Pikachu.html">
+          Pikachu</a>
+          <a class="dropdown-item" href="Yoshi.html">
+          Yoshi</a>
+          <a class="dropdown-item" href="Luigi.html">
+          Luigi</a>
         </div>
       </li>
       <li class="nav-item">
@@ -86,15 +92,6 @@
             </div>
           </div>    
       </li>
-      <!-- <li class="nav-item scenariosearch">
-         <label for="savestate-choice">Search for any scenario</label>
-         <input list="savestates" id="savestate-choice" name="savestate-choice"/>
-         <datalist id="savestates">
-             <option value="Take Laser Ftilt">
-             <option value="Nair OOS">
-         </datalist>
-        </div>     
-      </li> -->
     </ul>
   </div>
 </nav>
@@ -103,7 +100,7 @@
 <div class="container-fluid">
 <!-- Title Card -->
   <div class="row">
-    <div class="jumbotron" id="characterjumbotron">
+    <div class="jumbotron" id="topjumbotron">
         <h2 class="charactertitle">Sheik</h2>
       <div class="media">
         <img src="https://www.ssbwiki.com/images/2/23/Sheik_Palette_%28SSBM%29.png" class="palette" alt="...">
@@ -120,6 +117,7 @@
 <!-- Search Savestate By -->
     <!-- Dropdown Neutral -->
     <div class="btnContainer">
+    <div class="dropdown">
         <button onclick="neutralButton()" class="dropbtn">Neutral</button>
         <div id="myDropdown Neutral" class="dropdown-content">
           <input type="text" placeholder="Search.." id="myInput Neutral" onkeyup="filterFunctionNeutral()">
@@ -127,13 +125,16 @@
           <a href="Nair OOS">Nair OOS</a>
         </div>
     <!-- Dropdown Punish -->
+    <div class="dropdown">
         <button onclick="punishButton()" class="dropbtn">Punish</button>
         <div id="myDropdown Punish" class="dropdown-content">
           <input type="text" placeholder="Search.." id="myInput Punish" onkeyup="filterFunctionPunish()">
-          <a href="#TakeLaserFtilt">Take Laser Ftilt</a>
+          <a href="TakeLaserFtilt">Take Laser Ftilt</a>
           <a href="Nair OOS">Nair OOS</a>
         </div>
     <!-- Dropdown Defense -->
+
+    <div class="dropdown">
         <button onclick="defenseButton()" class="dropbtn">Defense</button>
         <div id="myDropdown Defense" class="dropdown-content">
           <input type="text" placeholder="Search.." id="myInput Defense" onkeyup="filterFunctionDefense()">
@@ -141,13 +142,16 @@
           <a href="Nair OOS">Nair OOS</a>
         </div>
     <!-- Dropdown All Sheik Savestates -->
+    <div class="dropdown">
         <button onclick="characterButton()" class="dropbtn">All Sheik <br/> Savestates</button>
+
         <div id="myDropdown Character" class="dropdown-content">
           <input type="text" placeholder="Search.." id="myInput Character" onkeyup="filterFunctionCharacter()">
           <a href="#TakeLaserFtilt">Take Laser Ftilt</a>
           <a href="Nair OOS">Nair OOS</a>
         </div>
     </div>
+  </div>
 <hr>
     </div>
 
@@ -188,7 +192,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -210,7 +214,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -232,7 +236,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -258,7 +262,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -280,7 +284,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -302,7 +306,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -328,7 +332,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -350,7 +354,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -372,7 +376,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -410,7 +414,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -432,7 +436,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -454,7 +458,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -479,7 +483,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -501,7 +505,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -523,7 +527,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -548,7 +552,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -570,7 +574,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
@@ -592,7 +596,7 @@
                 <div class="catalogitem">
                     <div class="single-explore-item">
                         <div>
-                            <h2>Sheik Ftilt</h2>
+                            <h2>Take Laser Ftilt</h2>
                             <video class="clips" width="940" height="510" controls>
                                 <source src="https://thumbs.gfycat.com/ComfortableDeliciousEquestrian-mobile.mp4" type="video/mp4">
                               </video>
